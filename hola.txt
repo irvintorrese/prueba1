@@ -1,0 +1,9 @@
+Hola que tal estimados
+comandos Git Bash
+git init: inica un nuevo repositorio Git
+git config user.name "" -> configurar el nombre de usuario al proyecto
+git config user.email "" -> configurar el email de la cuenta github
+git remote add origin "escrib enlace http" -> configurar el enlace http para acceder al progeto en github
+git status -> ver el estado de los commints (confirnaciones) hechas
+git add + nombre archivo -> agrega el archivo en el proyecto 
+git commit -m "Escribir un comentario" ->para solicitar confirmaci{on en el repositorio externo.
