@@ -6,4 +6,8 @@ git config user.email "" -> configurar el email de la cuenta github
 git remote add origin "escrib enlace http" -> configurar el enlace http para acceder al progeto en github
 git status -> ver el estado de los commints (confirnaciones) hechas
 git add + nombre archivo -> agrega el archivo en el proyecto 
-git commit -m "Escribir un comentario" ->para solicitar confirmaci{on en el repositorio externo.
+git commit -m "Escribir un comentario" ->para prepara una instantanea de los cambios en ese momento repositorio local.
+
+git push -u origin master -> permite cargar nuesto proyecto o archivo al repositorio
+Repositorio: lugar donde guardamos y administramos nuestros archivos
+
