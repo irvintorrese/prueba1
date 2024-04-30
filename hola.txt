@@ -3,11 +3,27 @@ comandos Git Bash
 git init: inica un nuevo repositorio Git
 git config user.name "" -> configurar el nombre de usuario al proyecto
 git config user.email "" -> configurar el email de la cuenta github
-git remote add origin "escrib enlace http" -> configurar el enlace http para acceder al progeto en github
+--(nuevo)-- git config user.password "" -> se coloca el token generado
+
+git remote add origin "escrib enlace http" -> configurar el enlace http para acceder al proyecto en github
 git status -> ver el estado de los commints (confirnaciones) hechas
-git add + nombre archivo -> agrega el archivo en el proyecto 
+git add + nombre archivo -> agrega el archivo en el proyecto repo local
 git commit -m "Escribir un comentario" ->para prepara una instantanea de los cambios en ese momento repositorio local.
 
-git push -u origin master -> permite cargar nuesto proyecto o archivo al repositorio
+git push -u origin master -> permite cargar nuesto proyecto o archivo al repositorio en la rama Master
 Repositorio: lugar donde guardamos y administramos nuestros archivos
+
+git clone enlacedelproyecto ->copia todo el proyecto
+git pull origin namerama -> copia (descarga)solo los cambios parte de del proyecto, lo agregado
+
+git branch: muestra las ramas del proyecto
+git branch namerama ->crea una rama al proyecto
+git branch -m namerama nuevonamerama -> cambia el nombra a la rama
+git checkout namerama ->ubica en la rama mencionada
+touch texto.txt ->para crear archivo de nombre texto
+
+git diff namerama1 namerama2 -> muestra la diferencia entre ramas al pasar de la rama 1 a la rama 2
+
+git merge namerama2 namerama1 -> une los cambios de la rama 2 a la rama1
+
 
